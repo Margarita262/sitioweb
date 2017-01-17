@@ -1,0 +1,3 @@
+HTML= contenido 
+CSS= Diseño
+JS= Funcionalidad

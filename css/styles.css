@@ -1,0 +1,16 @@
+/*Reglas CSS*/
+/*Tipo de etiqueta*/
+body,h1,h2,h3,h4,h5,h67{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Tipo Id*/
+#encabezado{
+    background-color: #93485E;
+    padding: 10px;
+    color: rgba(red, green, blue, alpha)
+    algo css
+    
+}
