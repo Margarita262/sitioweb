@@ -6,11 +6,17 @@ body,h1,h2,h3,h4,h5,h67{
     border: 0;
 }
 
-/*Tipo Id*/
+/*Tipo Id
 #encabezado{
     background-color: #93485E;
     padding: 10px;
     color: rgba(red, green, blue, alpha)
     algo css
-    
+}*/
+/*Tipo Id*/
+#encabezado{
+    background-color: #93485E;
+    padding: 10px;
+    color: red
+    algo css
 }
