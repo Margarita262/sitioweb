@@ -1,9 +1,19 @@
 /*Reglas CSS*/
+/*
+    regla{
+        propiedad:valor;
+
+    }
+*/
 /*Tipo de etiqueta*/
 body,h1,h2,h3,h4,h5,h67{
     margin: 0;
     padding: 0;
     border: 0;
+}
+body
+{
+    background-color: #ebecdf;
 }
 
 /*Tipo Id*/
@@ -11,7 +21,6 @@ body,h1,h2,h3,h4,h5,h67{
     background-color: #93485E;
     padding: 10px;
     color: rgba(red, green, blue, alpha)
-    algo css
 }
 /*Tipo Id
 #encabezado{
@@ -19,4 +28,62 @@ body,h1,h2,h3,h4,h5,h67{
     padding: 10px;
     color: red
     algo css
-}*/
+}*/ 
+/*Tipo clase*/
+.negrita{
+    font-weight: bold; 
+}
+#login-form{
+    width: 370px;
+    margin: 20px auto;
+    /*margin: 10px; Aplica los 4 lados
+    margin: : 10px 10px; aplica arriba y abajo 10px, izquierda y derecha 15px
+    margin: : 5px 10px 15px; arriba, izquierda y derecha, abajo
+    margin: 1px 2px 3px 4px; arriba, abajo, izquierda, derecha */
+    padding: 15px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px lightgray;
+}
+#login-form .input{
+    width: 98px;
+    font-size: 1em;
+}
+#login-form .control
+{
+    margin-bottom: 20px;
+    
+}
+#login-form .control label{
+    font-size: 1.2em;
+}
+#login-form button{
+    /*shorthand*/
+    border: 1px solid lightgray;
+    /*
+        border-width: 1px;
+        border-style: solid;
+        border-color: lightgray;
+    */
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1em;
+    width: 100%;
+    margin: 10px 0;
+}
+.block{
+    display:block;
+}
+.inline-block
+{
+    display: inline-block;
+}
+.control input{
+    padding: 3px;
+    border: 1 solid lightgray;
+}
+
+.text-center{
+    text-align: center;
+}
